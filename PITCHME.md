@@ -102,9 +102,7 @@ Options:
 
 Save file as `account.json`
 
-+++
-
----?code=learn/gcloud.tf&title=Create First VM
++++?code=learn/gcloud.tf&title=Create First VM
 @[1-6](Declare cloud provider)
 @[9-24](Create a compute instance)
 
