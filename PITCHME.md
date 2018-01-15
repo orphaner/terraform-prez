@@ -93,6 +93,8 @@ Options:
 
 * Intellij plugin for `.tf`
 
+* Standard formating with `terraform fmt`
+
 +++
 
 ### Gcloud Create Credentials
@@ -104,25 +106,30 @@ Save file as `account.json`
 
 ### Create First VM
 
+---?code=learn/gcloud.tf
+@[1-6](Declare cloud provider)
+@[9-24](Create a compute instance)
 
 +++
 
 ### Terraform init
-First command to run:
-- on a new configuration
-- after a git pull
+* First command to run:
+  * on a new configuration
+  * after a git pull
 
-Terraform is based on plugin:
-- each provider is its own binary
-- needs to be downloaded
+* Terraform is based on plugin:
+  * each provider is its own binary
+  * needs to be downloaded
+
++++
 
 ```
 $ terraform init
-```
 
- Initializing provider plugins...
+Initializing provider plugins...
  - Checking for available provider plugins on https://releases.hashicorp.com...
  - Downloading plugin for provider "google" (1.4.0)...
+```
 
 +++
 
@@ -130,10 +137,10 @@ $ terraform init
 ``` txt
 $ tree .terraform
 .terraform
-|-- plugins
-    |-- linux_amd64
-        |-- lock.json
-        |-- terraform-provider-google_v1.4.0_x4
+\|-- plugins
+    \|-- linux_amd64
+        \|-- lock.json
+        \|-- terraform-provider-google_v1.4.0_x4
 ```
 
 ### Terraform plan
