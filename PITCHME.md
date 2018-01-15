@@ -125,6 +125,13 @@ $ terraform init
 Initializing provider plugins...
  - Checking for available provider plugins on https://releases.hashicorp.com...
  - Downloading plugin for provider "google" (1.4.0)...
+
+$ tree .terraform
+.terraform
+\|-- plugins
+    \|-- linux_amd64
+        \|-- lock.json
+        \|-- terraform-provider-google_v1.4.0_x4
 ```
 
 +++
