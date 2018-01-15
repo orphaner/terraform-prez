@@ -24,19 +24,54 @@
 List of subcommands:
 
 ```
- terraform
+$ terraform
+Usage: terraform [--version] [--help] <command> [args]
+
+The available commands for execution are listed below.
+The most common, useful commands are shown first, followed by
+less common or more advanced commands. If you're just getting
+started with Terraform, stick with the common commands. For the
+other commands, please read the help and docs before usage.
+
+Common commands:
+    apply              Builds or changes infrastructure
+    console            Interactive console for Terraform interpolations
+    destroy            Destroy Terraform-managed infrastructure
+    env                Workspace management
+    fmt                Rewrites config files to canonical format
+...
 ```
+
+@[1]()
+@[2-](Display all sub-commands)
+
++++
 
 Version:
 
 ```
- terraform version
+$ terraform version
+Terraform v0.11.2
 ```
+
++++
 
 Help:
-
 ```
- terraform subcommand --help
+$ terraform fmt --help
+
+Usage: terraform fmt [options] [DIR]
+
+	Rewrites all Terraform configuration files to a canonical format.
+
+	If DIR is not specified then the current working directory will be used.
+	If DIR is "-" then content will be read from STDIN.
+
+Options:
+
+  -list=true       List files whose formatting differs (always false if using STDIN)
+
+...
 ```
 
 +++
@@ -44,16 +79,15 @@ Help:
 ### TF / JSON file
 2 formats:
 
-. TF: for human
-. Json: for machine generation
+- TF: for human
+- Json: for machine generation
 
 Intellij plugin for `.tf`
 
 +++
 
 ### Gcloud Create Credentials
- "API & Services" > "Credentials" > "Create credentials"
- > "Service Account Key" as JSON file
+"API & Services" > "Credentials" > "Create credentials" > "Service Account Key" as JSON file
 
 Save file as `account.json`
 
@@ -66,15 +100,15 @@ Save file as `account.json`
 
 ### Terraform init
 First command to run:
- * on a new configuration
- * after a git pull
+- on a new configuration
+- after a git pull
 
 Terraform is based on plugin:
-* each provider is its own binary
-* needs to be downloaded
+- each provider is its own binary
+- needs to be downloaded
 
 ```
-terraform init
+$ terraform init
 ```
 
  Initializing provider plugins...
@@ -84,13 +118,13 @@ terraform init
 +++
 
 
-```
-tree .terraform 
+``` txt
+$ tree .terraform
 .terraform
-|── plugins
-    |── linux_amd64
-        |── lock.json
-        |── terraform-provider-google_v1.4.0_x4
+|-- plugins
+    |-- linux_amd64
+        |-- lock.json
+        |-- terraform-provider-google_v1.4.0_x4
 ```
 
 ### Terraform plan
