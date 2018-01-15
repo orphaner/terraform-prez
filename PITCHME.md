@@ -105,7 +105,7 @@ Save file as `account.json`
 +++
 
 ### Create First VM
----?code=learn/gcloud.tf&title=gcloud.tf
+?code=learn/gcloud.tf&title=gcloud.tf
 @[1-6](Declare cloud provider)
 @[9-24](Create a compute instance)
 
