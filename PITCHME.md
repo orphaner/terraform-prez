@@ -87,12 +87,11 @@ Options:
 +++
 
 ### TF / JSON file
-2 formats:
+* 2 formats:
+  1. `TF`: for human
+  2. `Json`: for machine generation
 
-- TF: for human |
-- Json: for machine generation |
-
-Intellij plugin for `.tf`
+* Intellij plugin for `.tf`
 
 +++
 
