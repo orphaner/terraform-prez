@@ -21,6 +21,7 @@
 +++
 
 ## first steps
+List of commands:
 
 ```
 $ terraform
@@ -51,10 +52,8 @@ Common commands:
 
 ...
 ```
-@[1]()
-@[2](Unix usage)
-@[3-8](Description of the command)
-@[10-20](Subcommands list with description)
+@[2-8](Unix usage and description)
+@[10-20](Commands list with description)
 
 +++
 
@@ -90,8 +89,8 @@ Options:
 ### TF / JSON file
 2 formats:
 
-- TF: for human
-- Json: for machine generation
+- TF: for human |
+- Json: for machine generation |
 
 Intellij plugin for `.tf`
 

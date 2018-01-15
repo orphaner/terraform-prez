@@ -1,4 +1,4 @@
 slide-number: true
 theme: moon
-vertical-center : false
+#vertical-center : false
 theme-override : assets/css/PITCHME.css
