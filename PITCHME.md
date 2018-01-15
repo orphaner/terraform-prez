@@ -39,9 +39,12 @@ Common commands:
     destroy            Destroy Terraform-managed infrastructure
     env                Workspace management
     fmt                Rewrites config files to canonical format
+
+...
 ```
 @[1]()
-@[3-](CLI Help is displayed)
+@[3-8](Description of the command)
+@[10-20](Subcommands list with description)
 
 +++
 
