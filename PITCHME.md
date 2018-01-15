@@ -1,7 +1,7 @@
 # Terraform
 
 
-#### Markdown Presentations For Everyone on Git.*
+#### distributed, highly available, datacenter-aware scheduler
 
 ---
 
@@ -9,13 +9,12 @@
 
 
 ### Installation
-
 ```
- https://www.terraform.io/downloads.html
- wget https://releases.hashicorp.com/terraform/0.11.2/terraform_0.11.2_linux_amd64.zip
- unzip terraform_0.11.2_linux_amd64.zip
- sudo mv terraform /usr/local/bin/
- sudo chmod +x /usr/local/bin/terraform
+$ https://www.terraform.io/downloads.html
+$ wget https://releases.hashicorp.com/terraform/0.11.2/terraform_0.11.2_linux_amd64.zip
+$ unzip terraform_0.11.2_linux_amd64.zip
+$ sudo mv terraform /usr/local/bin/
+$ sudo chmod +x /usr/local/bin/terraform
 ```
 
 +++
