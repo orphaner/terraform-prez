@@ -85,10 +85,12 @@ Options:
 
 +++
 
-### TF / JSON file
+### HCL / JSON file
 * 2 formats:
-  1. `TF`: for human
-  2. `Json`: for machine generation
+  1. `HCL` - Hashicorp Configuration language
+     * for human
+  2. `JSON`
+     * for machine generation
 
 * Intellij plugin for `.tf`
 
